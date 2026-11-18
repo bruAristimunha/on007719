@@ -1,22 +1,33 @@
 {
   "Name": "Cambridge_data_resting",
   "BIDSVersion": "1.10.0",
-  "License": "CC0",
+  "License": "CC0-1.0",
   "DatasetType": "raw",
   "Authors": [
-    "Enter author names here"
+    "Emilia Butters",
+    "Gemma Bale",
+    "John O'Brien"
   ],
-  "Acknowledgements": "Enter acknowledgements here (e.g., funding sources, institutions).",
-  "HowToAcknowledge": "Provide details on how to cite or acknowledge this dataset.",
+  "HowToAcknowledge": "Please cite the original data release and the associated paper (doi:10.1162/imag.a.1208).",
   "DatasetDOI": "10.82901/nemar.on007719",
   "Funding": [
-    "Enter funding details here, if applicable."
+    "Gianna Angelopoulos Programme for Science and Technology Innovation",
+    "Isaac Newton Trust",
+    "Cambridge NeuroWorks Fellowship",
+    "Alzheimer’s Society Clinical Research Fellowship Grant (AS-CTF-17b-0030)",
+    "Altos Labs",
+    "Race Against Dementia",
+    "Alzheimer’s Research UK Senior Research Fellowship (ARUK-SRF2017B-1)",
+    "NIHR Cambridge Biomedical Research Centre (NIHR203312)",
+    "Cambridge Centre for Parkinson’s Plus Disorders",
+    "MRC Dementias Platform UK (MR/L023784/2)"
   ],
   "EthicsApprovals": [
-    "Enter ethics approval details here, if applicable."
+    "This study was approved by Wales Research Ethics Committee."
   ],
   "ReferencesAndLinks": [
-    "Enter references or related links here, if applicable."
+    "https://doi.org/10.18112/openneuro.ds007719.v1.0.0",
+    "https://doi.org/10.1162/imag.a.1208"
   ],
   "SourceDatasets": [
     {

@@ -1,2 +1,15 @@
+1.0.1 2026-11-18
+  - dataset_description.json: template placeholders replaced or removed; License written as SPDX "CC0-1.0"
+  - dataset_description.json Authors -> the creators of the OpenNeuro record doi:10.18112/openneuro.ds007719.v1.0.0 (datacite.yml data.attributes.creators); spelling "Butters" as in the author list of doi:10.1162/imag.a.1208
+  - dataset_description.json EthicsApprovals -> doi:10.1162/imag.a.1208, section 2.1 "Participants"
+  - dataset_description.json Funding -> doi:10.1162/imag.a.1208, section "Funding"
+  - dataset_description.json ReferencesAndLinks, HowToAcknowledge -> doi:10.18112/openneuro.ds007719.v1.0.0 and doi:10.1162/imag.a.1208
+  - *_nirs.json Manufacturer, ManufacturersModelName -> doi:10.1162/imag.a.1208, section 2.2 "Experimental paradigm and recording" ("the LUMO (Gowerlabs Ltd., London, UK)")
+  - *_nirs.json RecordingDuration, RecordingType -> computed from the SNIRF time vector of each recording
+  - participants.tsv: 10 rows for subjects with no sub-* folder removed (BIDS validator)
+  - channels.tsv: channel names aligned with the SNIRF measurement list (mne_bids channel mismatch)
+  - *_coordsystem.json: NIRSCoordinateSystemDescription added (required for "Other")
+  - README.md "Data notes" -> the events.tsv and events.json files of this dataset
+  - Not in this text change (data files): SNIRF TimeUnit/LengthUnit/dataUnit made SNIRF v1.1 compliant
 1.0.0 2026-04-27
   - Added authors
